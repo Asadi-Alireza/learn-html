@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="" target="_blank"> <!--agar target bezarim ba blank mireh safeh jadid etelat vard mikonim   -->     <!-- action && metod baray bakhsheh back end -->
+        <label for="fname">first name:</label><!-- chon be vasile id beham vasle roi harf ha ro ham bezanim select misheh -->
+        <input required id="fname" type="text"><br><!-- in line -->  <!-- requierd age bezarim ekhtar mideh ke bayad por basheh --> 
+        <label required for="lname">last name:</label>
+        <input id="lname" type="text">
+        <!-- dokmeh bary ersal etlat --> <!-- value esm dakhel kader avaz mikoneh -->
+        <br>
+        
+        <input type="radio" name="gender" id="male"><!-- chon name har doshon name faghat ieki mishe entekhab kard -->
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">female</label><br>
+        
+        
+        <select multiple name="" id=""><!-- name & id marobt  be server -->  <!-- multiple basheh chand mord misheh entekhab karrd -->
+            <option value="">html</option>
+            <option selected value="">css</option><!-- selected bezarim be sorat defult ono mizareh -->
+            <option value="">js</option>
+        </select><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><!-- cols va roms tedad satreh va soton --><br>
+        <label for="ghavanin">قوانین را می پذیرم</label>
+        <input type="checkbox" id="ghavanin"><!-- yek mostatil misheh tik zad --> <br>
+        <label for="email">Enter email:</label>
+        <input type="email" id="email"><!-- baray vared kardaneh email --> <br>
+        <label for="password">password :</label>
+        <input type="password" id="password" required> <!-- baray vared kardaneh password va vordi ha hiden --> <br>
+        <input type="file"><!-- baray vared kadan file  --> <br>
+        <label for="number">enter age: </label>
+        <input type="number" id="number"><br><!-- fagt add migireh -->
+        <label for="date">birthday</label>
+        <input type="date" id="date"><!-- baray vared kardan tarikh --> <br>
+        <label for="color">enter color</label>
+        <input type="color" id="color"><br>
+        <label for="range">enter your range:</label>
+        <input min="0" max="100" type="range" id="range"> <br> <!-- bary vared kardan range  -->
+        <input type="submit" value="send"> 
+
+        <input type="text">
+        
+    </form>
+</body>
+</html>
