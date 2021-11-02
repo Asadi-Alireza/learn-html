@@ -9,7 +9,7 @@
 </head>
 
 <body style="font-family: b nazanin;" dir="rtl">
-    
+
     <!-- کل ناحیه فرم ما در تگ فیلد ست هستش -->
     <fieldset>
         <legend align="center">
@@ -33,25 +33,26 @@
             <br><br>
 
             <label for="shomareh">شماره منزل / محل کار:</label> &nbsp;&nbsp;
-            <input type="number" name="shomareh" id="shomareh" placeholder="یک شماره ثابت را وارد کنید...." >
+            <input type="number" name="shomareh" id="shomareh" placeholder="یک شماره ثابت را وارد کنید....">
             <br><br>
 
             <label for="shomareh-h">شماره همراه *:</label> &nbsp;&nbsp;
-            <input type="number" name="shomareh-h" id="shomareh-h" placeholder="شماره همراه خود را وارد کنید ...." required>
+            <input type="number" name="shomareh-h" id="shomareh-h" placeholder="شماره همراه خود را وارد کنید ...."
+                required>
             <br><br>
 
-            <label for="them">رنگ تم مورد نظر در وب سایت خود را انتخاب کنید  :</label> &nbsp;&nbsp;
-            <input type="color" name="them" id="them" >
+            <label for="them">رنگ تم مورد نظر در وب سایت خود را انتخاب کنید :</label> &nbsp;&nbsp;
+            <input type="color" name="them" id="them">
             <br><br>
 
             <label for="money">بودجه شما برای انجام پروژه :</label> &nbsp;&nbsp;
-            <span>1 تا 5 میلیون تومان</span>
-            <input type="radio" name="money" id="money" checked >
+            <label for="5tomam">1 تا 5 میلیون تومان</label>
+            <input type="radio" name="money" id="5tomam" checked>
             <!-- checked= default on input radio -->
-            <span>6 تا 10 میلیون تومان</span>
-            <input type="radio" name="money" id="money" >
-            <span>11 تا 15 میلیون تومان</span>
-            <input type="radio" name="money" id="money" >
+            <label for="10tomam">6 تا 10 میلیون تومان</label>
+            <input type="radio" name="money" id="10tomam">
+            <label for="15toman">11 تا 15 میلیون تومان</label>
+            <input type="radio" name="money" id="15toman">
             <!-- برای اینکه در ریدیو فقط بتوانیم یکی از انها را انتخاب کنیم کافی است که تمامی نیم های انها یکی باشد -->
             <br><br>
             <label for="bodjeh">نوع وب سایت شما :</label>
@@ -64,7 +65,7 @@
             <br><br>
 
             <label for="tarah">طراح وب سایت شما :</label>
-            <input type="text" value="علیرضا اسدی" name="tarah"  id="tarah" disabled style="cursor: no-drop;">
+            <input type="text" value="علیرضا اسدی" name="tarah" id="tarah" disabled style="cursor: no-drop;">
             <br><br>
             <label for="">خدمات اضافه:</label>&nbsp; &nbsp;
             <label for="seo">سئو</label>
@@ -84,6 +85,10 @@
             <label for="tozih">توضیحات اضافه:</label>
             <textarea name="tozih" id="tozih" cols="20" rows="10" style="resize: none;"></textarea>
             <!-- style resize=اندازه تکس ارا تغییری نکند  -->
+            <br><br>
+
+            <input type="submit" value="ارسال" name="send">
+            <input type="reset" value="پاک کردن " name="reset" onclick="alert('اطلاعات پاک شد')" >
         </div>
 
 
