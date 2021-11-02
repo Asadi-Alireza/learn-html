@@ -8,27 +8,41 @@
     <title>PROJECT</title>
 </head>
 
-<body style="font-family: b nazanin;">
+<body style="font-family: b nazanin;" dir="rtl">
+    
     <!-- کل ناحیه فرم ما در تگ فیلد ست هستش -->
     <fieldset>
         <legend align="center">
             <h2>:فرم سفارش طراحی سایت</h2>
-            <div dir="rtl">
-                <label for="fname">نام *:</label> &nbsp;&nbsp; 
-                <input type="text" name="fname" id="fname" placeholder="نام خود را وارد کنید" required>
-                <br><br>
-
-                <label for="lname"> نام خانوادگی*:</label> &nbsp;&nbsp; 
-                <input type="text" name="lname" id="lname" placeholder="نام خانوادگی خود را وارد کنید" required>
-                <br><br>
-
-                <label for="email"> ایمیل *:</label> &nbsp;&nbsp; 
-                <input type="email" name="email" id="email" placeholder="ایمیل  خود را وارد کنید" required>
-                <br><br>
-            </div>
-
-
         </legend>
+        <p style="color: red;">توجه :علامت * ستاره به معنای اجباری بودن پر کردن فیلد است.</p>
+        <p style="color: red;">توجه :قیمت وارده ی شما بر کیفیت کار تاثیری ندارد بلکه بر خدمات تاثیر دارد.</p>
+        <br>
+        <div dir="rtl" align="center">
+            <label for="fname">نام *:</label> &nbsp;&nbsp;
+            <input type="text" name="fname" id="fname" placeholder="نام خود را وارد کنید...." required>
+            <br><br>
+
+            <label for="lname"> نام خانوادگی*:</label> &nbsp;&nbsp;
+            <input type="text" name="lname" id="lname" placeholder="نام خانوادگی خود را وارد کنید...." required>
+            <br><br>
+
+            <label for="email"> ایمیل *:</label> &nbsp;&nbsp;
+            <input type="email" name="email" id="email" placeholder="ایمیل  خود را وارد کنید...." required size="28">
+            <!-- size = andazeh kadre input taghir miconeh -->
+            <br><br>
+
+            <label for="shomareh">شماره منزل / محل کار:</label> &nbsp;&nbsp;
+            <input type="number" name="shomareh" id="shomareh" placeholder="یک شماره ثابت را وارد کنید...." >
+            <br><br>
+
+            <label for="shomareh-h">شماره همراه:</label> &nbsp;&nbsp;
+            <input type="number" name="shomareh-h" id="shomareh-h" placeholder="شماره همراه خود را وارد کنید ...." >
+            <br><br>
+        </div>
+
+
+
     </fieldset>
 </body>
 
