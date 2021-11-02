@@ -46,13 +46,21 @@
 
             <label for="money">بودجه شما برای انجام پروژه :</label> &nbsp;&nbsp;
             <span>1 تا 5 میلیون تومان</span>
-            <input type="radio" name="money" id="money" >
+            <input type="radio" name="money" id="money" checked >
+            <!-- checked= default on input radio -->
             <span>6 تا 10 میلیون تومان</span>
             <input type="radio" name="money" id="money" >
             <span>11 تا 15 میلیون تومان</span>
             <input type="radio" name="money" id="money" >
             <!-- برای اینکه در ریدیو فقط بتوانیم یکی از انها را انتخاب کنیم کافی است که تمامی نیم های انها یکی باشد -->
             <br><br>
+            <label for="bodjeh">نوع وب سایت شما :</label>
+            <select name="bodjeh" id="bodjeh">
+                <option value="">خدماتی</option>
+                <option value="">فروشگاهی</option>
+                <option value="">دانلودی</option>
+                <option value="">خبری</option>
+            </select>
 
         </div>
 
