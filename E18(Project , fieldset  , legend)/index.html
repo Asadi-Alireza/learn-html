@@ -11,85 +11,91 @@
 <body style="font-family: b nazanin;" dir="rtl">
 
     <!-- کل ناحیه فرم ما در تگ فیلد ست هستش -->
-    <fieldset><!-- یک خطی مثل نمونه پروژه کل ناحیه ای که درون فیلد ست هست را در بر میگیرد -->
+    <fieldset>
+        <!-- یک خطی مثل نمونه پروژه کل ناحیه ای که درون فیلد ست هست را در بر میگیرد -->
         <legend align="center">
-            <h2>:فرم سفارش طراحی سایت</h2><!--فقط لجند هستش که وسط انتهای و ابتدای خط فیلد ست قرار میگیرد -->
+            <h2>:فرم سفارش طراحی سایت</h2>
+            <!--فقط لجند هستش که وسط انتهای و ابتدای خط فیلد ست قرار میگیرد -->
         </legend>
         <p style="color: red;">توجه :علامت * ستاره به معنای اجباری بودن پر کردن فیلد است.</p>
         <p style="color: red;">توجه :قیمت وارده ی شما بر کیفیت کار تاثیری ندارد بلکه بر خدمات تاثیر دارد.</p>
         <br>
         <div dir="rtl" align="center">
-            <label for="fname">نام *:</label> &nbsp;&nbsp;
-            <input type="text" name="fname" id="fname" placeholder="نام خود را وارد کنید...." required>
-            <br><br>
+            <form action="">
+                <label for="fname">نام *:</label> &nbsp;&nbsp;
+                <input type="text" name="fname" id="fname" placeholder="نام خود را وارد کنید...." required>
+                <br><br>
 
-            <label for="lname"> نام خانوادگی*:</label> &nbsp;&nbsp;
-            <input type="text" name="lname" id="lname" placeholder="نام خانوادگی خود را وارد کنید...." required>
-            <br><br>
+                <label for="lname"> نام خانوادگی*:</label> &nbsp;&nbsp;
+                <input type="text" name="lname" id="lname" placeholder="نام خانوادگی خود را وارد کنید...." required>
+                <br><br>
 
-            <label for="email"> ایمیل *:</label> &nbsp;&nbsp;
-            <input type="email" name="email" id="email" placeholder="ایمیل  خود را وارد کنید...." required size="28">
-            <!-- size = andazeh kadre input taghir miconeh -->
-            <br><br>
+                <label for="email"> ایمیل *:</label> &nbsp;&nbsp;
+                <input type="email" name="email" id="email" placeholder="ایمیل  خود را وارد کنید...." required
+                    size="28">
+                <!-- size = andazeh kadre input taghir miconeh -->
+                <br><br>
 
-            <label for="shomareh">شماره منزل / محل کار:</label> &nbsp;&nbsp;
-            <input type="number" name="shomareh" id="shomareh" placeholder="یک شماره ثابت را وارد کنید....">
-            <br><br>
+                <label for="shomareh">شماره منزل / محل کار:</label> &nbsp;&nbsp;
+                <input type="number" name="shomareh" id="shomareh" placeholder="یک شماره ثابت را وارد کنید....">
+                <br><br>
 
-            <label for="shomareh-h">شماره همراه *:</label> &nbsp;&nbsp;
-            <input type="number" name="shomareh-h" id="shomareh-h" placeholder="شماره همراه خود را وارد کنید ...."
-                required>
-            <br><br>
+                <label for="shomareh-h">شماره همراه *:</label> &nbsp;&nbsp;
+                <input type="number" name="shomareh-h" id="shomareh-h" placeholder="شماره همراه خود را وارد کنید ...."
+                    required>
+                <br><br>
 
-            <label for="them">رنگ تم مورد نظر در وب سایت خود را انتخاب کنید :</label> &nbsp;&nbsp;
-            <input type="color" name="them" id="them">
-            <br><br>
+                <label for="them">رنگ تم مورد نظر در وب سایت خود را انتخاب کنید :</label> &nbsp;&nbsp;
+                <input type="color" name="them" id="them">
+                <br><br>
 
-            <label for="money">بودجه شما برای انجام پروژه :</label> &nbsp;&nbsp;
-            <label for="5tomam">1 تا 5 میلیون تومان</label>
-            <input type="radio" name="money" id="5tomam" checked>
-            <!-- checked= default on input radio -->
-            <label for="10tomam">6 تا 10 میلیون تومان</label>
-            <input type="radio" name="money" id="10tomam">
-            <label for="15toman">11 تا 15 میلیون تومان</label>
-            <input type="radio" name="money" id="15toman">
-            <!-- برای اینکه در ریدیو فقط بتوانیم یکی از انها را انتخاب کنیم کافی است که تمامی نیم های انها یکی باشد -->
-            <br><br>
-            <label for="bodjeh">نوع وب سایت شما :</label>
-            <select name="bodjeh" id="bodjeh">
-                <option value="">خدماتی</option>
-                <option value="">فروشگاهی</option>
-                <option value="">دانلودی</option>
-                <option value="">خبری</option>
-            </select>
-            <br><br>
+                <label for="money">بودجه شما برای انجام پروژه :</label> &nbsp;&nbsp;
+                <label for="5tomam">1 تا 5 میلیون تومان</label>
+                <input type="radio" name="money" id="5tomam" checked>
+                <!-- checked= default on input radio -->
+                <label for="10tomam">6 تا 10 میلیون تومان</label>
+                <input type="radio" name="money" id="10tomam">
+                <label for="15toman">11 تا 15 میلیون تومان</label>
+                <input type="radio" name="money" id="15toman">
+                <!-- برای اینکه در ریدیو فقط بتوانیم یکی از انها را انتخاب کنیم کافی است که تمامی نیم های انها یکی باشد -->
+                <br><br>
+                <label for="bodjeh">نوع وب سایت شما :</label>
+                <select name="bodjeh" id="bodjeh">
+                    <option value="">خدماتی</option>
+                    <option value="">فروشگاهی</option>
+                    <option value="">دانلودی</option>
+                    <option value="">خبری</option>
+                </select>
+                <br><br>
 
-            <label for="tarah">طراح وب سایت شما :</label>
-            <input type="text" value="علیرضا اسدی" name="tarah" id="tarah" disabled style="cursor: no-drop;">
-            <br><br>
-            <label for="">خدمات اضافه:</label>&nbsp; &nbsp;
-            <label for="seo">سئو</label>
-            <input type="checkbox" name="seo" id="seo">
-            <label for="bootstrap">ریسپانسیو</label>
-            <input type="checkbox" name="bootstrap" id="bootstrap">
-            <label for="tabligh">تبلیغات</label>
-            <input type="checkbox" name="tabligh" id="tabligh">
-            <br><br>
+                <label for="tarah">طراح وب سایت شما :</label>
+                <input type="text" value="علیرضا اسدی" name="tarah" id="tarah" disabled style="cursor: no-drop;">
+                <br><br>
+                <label for="">خدمات اضافه:</label>&nbsp; &nbsp;
+                <label for="seo">سئو</label>
+                <input type="checkbox" name="seo" id="seo">
+                <label for="bootstrap">ریسپانسیو</label>
+                <input type="checkbox" name="bootstrap" id="bootstrap">
+                <label for="tabligh">تبلیغات</label>
+                <input type="checkbox" name="tabligh" id="tabligh">
+                <br><br>
 
-            <label for="range">مدت زمان مطلوب شما برای تحویل پروژه :</label> &nbsp; &nbsp;
-            <span>20روز</span>
-            <input type="range" name="range" id="range">
-            <span>40روز</span>
-            <br><br>
+                <label for="range">مدت زمان مطلوب شما برای تحویل پروژه :</label> &nbsp; &nbsp;
+                <span>20روز</span>
+                <input type="range" name="range" id="range">
+                <span>40روز</span>
+                <br><br>
 
-            <label for="tozih">توضیحات اضافه:</label>
-            <textarea name="tozih" id="tozih" cols="20" rows="10" style="resize: none;"></textarea>
-            <!-- style resize=اندازه تکس ارا تغییری نکند  -->
-            <br><br>
+                <label for="tozih">توضیحات اضافه:</label>
+                <textarea name="tozih" id="tozih" cols="20" rows="10" style="resize: none;"></textarea>
+                <!-- style resize=اندازه تکس ارا تغییری نکند  -->
+                <br><br>
 
-            <input type="submit" value="ارسال" name="send">
-            <input type="reset" value="reset">
+                <input type="submit" value="ارسال" name="send">
+                <input type="reset" value="reset">
+            </form>
         </div>
+        
 
 
 
